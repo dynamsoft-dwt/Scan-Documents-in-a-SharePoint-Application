@@ -1,0 +1,4 @@
+c:\users\administrator\documents\visual studio 2013\Projects\Scan-in-SharePoint\Scan-in-SharePoint\bin\Debug\Scan-in-SharePoint.dll
+c:\users\administrator\documents\visual studio 2013\Projects\Scan-in-SharePoint\Scan-in-SharePoint\bin\Debug\Scan-in-SharePoint.pdb
+c:\users\administrator\documents\visual studio 2013\Projects\Scan-in-SharePoint\Scan-in-SharePoint\obj\Debug\Scan-in-SharePoint.dll
+c:\users\administrator\documents\visual studio 2013\Projects\Scan-in-SharePoint\Scan-in-SharePoint\obj\Debug\Scan-in-SharePoint.pdb

@@ -1,0 +1,1 @@
+bin\Debug\Scan_in_SharePoint.wsp
