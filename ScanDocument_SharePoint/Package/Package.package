@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="0d723c3f-b698-40ab-bb9d-d6a6bf9642e1" solutionId="0d723c3f-b698-40ab-bb9d-d6a6bf9642e1" resetWebServer="false" sharePointProductVersion="15.0" name="ScanDocument_SharePoint" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="a06ea8b7-4b48-4ecf-ad34-3016ab4e025a" />
+  </features>
+</package>

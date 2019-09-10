@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="0d723c3f-b698-40ab-bb9d-d6a6bf9642e1" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="ScanDocument_SharePoint.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="ScanDocument_SharePoint, Version=1.0.0.0, Culture=neutral, PublicKeyToken=871959b7c0e729c8" Namespace="ScanDocument_SharePoint" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="ScanDocument_SharePoint_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>
