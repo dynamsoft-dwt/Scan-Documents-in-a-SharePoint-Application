@@ -35,14 +35,12 @@
             Dynamsoft.WebTwainEnv.RegisterEvent('OnWebTwainReady', Dynamsoft_OnReady);
             /**
             * In order to use the full version, do the following
-            * 1. Change Dynamsoft.WebTwainEnv.Trial to false
-            * 2. Replace A-Valid-Product-Key with a full version key
-            * 3. Change Dynamsoft.WebTwainEnv.ResourcesPath to point to the full version 
+            * 1. Replace Dynamsoft.WebTwainEnv.ProductKey with a full version key
+            * 2. Change Dynamsoft.WebTwainEnv.ResourcesPath to point to the full version 
             *    resource files that you obtain after purchasing a key
             */
-            Dynamsoft.WebTwainEnv.Trial = true;
-            //Dynamsoft.WebTwainEnv.ProductKey = "A-Valid-Product-Key";
-            //Dynamsoft.WebTwainEnv.ResourcesPath = "https://tst.dynamsoft.com/libs/dwt/15.1";
+            Dynamsoft.WebTwainEnv.ProductKey = "t00901wAAAF+u0oFLI39wRNB580cu3kJSIZtbAcR5aCChp+BFa+RGTGv4L2zaA7Q4fzLjNbZJF55lzg9BdnPG5aZjeJPOJUTwD+r5izfQJtguoC4BNSFofgBZwyta";
+			ynamsoft.WebTwainEnv.ResourcesPath = 'https://unpkg.com/dwt/dist/';
 
             Dynamsoft.WebTwainEnv.Load();
         };
