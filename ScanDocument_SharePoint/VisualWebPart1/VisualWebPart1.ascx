@@ -30,23 +30,23 @@
         var DWObject;
 
         window.onload = function () {
-            Dynamsoft.WebTwainEnv.AutoLoad = false;
-            Dynamsoft.WebTwainEnv.Containers = [{ ContainerId: 'dwtcontrolContainer', Width: '100%', Height: '500px' }];
-            Dynamsoft.WebTwainEnv.RegisterEvent('OnWebTwainReady', Dynamsoft_OnReady);
+            Dynamsoft.DWT.AutoLoad = false;
+            Dynamsoft.DWT.Containers = [{ ContainerId: 'dwtcontrolContainer', Width: '100%', Height: '500px' }];
+            Dynamsoft.DWT.RegisterEvent('OnWebTwainReady', Dynamsoft_OnReady);
             /**
             * In order to use the full version, do the following
-            * 1. Replace Dynamsoft.WebTwainEnv.ProductKey with a full version key
-            * 2. Change Dynamsoft.WebTwainEnv.ResourcesPath to point to the full version 
+            * 1. Replace Dynamsoft.DWT.ProductKey with a full version key
+            * 2. Change Dynamsoft.DWT.ResourcesPath to point to the full version 
             *    resource files that you obtain after purchasing a key
             */
-            Dynamsoft.WebTwainEnv.ProductKey = "t00901wAAAF+u0oFLI39wRNB580cu3kJSIZtbAcR5aCChp+BFa+RGTGv4L2zaA7Q4fzLjNbZJF55lzg9BdnPG5aZjeJPOJUTwD+r5izfQJtguoC4BNSFofgBZwyta";
-			ynamsoft.WebTwainEnv.ResourcesPath = 'https://unpkg.com/dwt/dist/';
+            Dynamsoft.DWT.ProductKey = "t00891wAAAEFI4LxiTj1i25NNRIf2JmEOrbXv3jMNfvvxAuMh9vm8+OxP/GoAFy1qDRebTFKcW0OsELrReNW7oVZUcKOYNorvws58twDvIE9Q0wAmJ2XcbmcVK6Q=";
+			ynamsoft.DWT.ResourcesPath = 'https://unpkg.com/dwt/dist/';
 
-            Dynamsoft.WebTwainEnv.Load();
+            Dynamsoft.DWT.Load();
         };
 
         function Dynamsoft_OnReady() {
-            DWObject = Dynamsoft.WebTwainEnv.GetWebTwain('dwtcontrolContainer'); // Get the Dynamic Web TWAIN object that is embeded in the div with id 'dwtcontrolContainer'
+            DWObject = Dynamsoft.DWT.GetWebTwain('dwtcontrolContainer'); // Get the Dynamic Web TWAIN object that is embeded in the div with id 'dwtcontrolContainer'
             if (DWObject) {
                 var count = DWObject.SourceCount; // Populate how many sources are installed in the system
                 for (var i = 0; i < count; i++)
@@ -75,7 +75,7 @@
         function LoadImage() {
             if (DWObject) {
                 DWObject.IfShowFileDialog = true; // Open the system's file dialog to load image
-                DWObject.LoadImageEx("", EnumDWT_ImageType.IT_ALL, OnSuccess, OnFailure); // Load images in all supported formats (.bmp, .jpg, .tif, .png, .pdf). OnSuccess or OnFailure will be called after the operation
+                DWObject.LoadImageEx("", Dynamsoft.DWT.EnumDWT_ImageType.IT_ALL, OnSuccess, OnFailure); // Load images in all supported formats (.bmp, .jpg, .tif, .png, .pdf). OnSuccess or OnFailure will be called after the operation
             }
         }
 
