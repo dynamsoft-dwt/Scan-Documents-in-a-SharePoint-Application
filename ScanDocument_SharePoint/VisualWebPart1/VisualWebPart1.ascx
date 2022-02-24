@@ -39,7 +39,7 @@
             * 2. Change Dynamsoft.DWT.ResourcesPath to point to the full version 
             *    resource files that you obtain after purchasing a key
             */
-            Dynamsoft.DWT.ProductKey = 't00881wAAAJiZxwKrauMDAnLQZ4prFe5v+GIzhfe6tY5KYmPHgMl/HdEi/Vt0gw0oYrLdhvNToW0YknBnPyJr0T5IkwNgUinIjHfOHUQH/gYsW0kWed4BaK4rng==';
+            Dynamsoft.DWT.ProductKey = 't00901wAAAFGokK55GCTHFf8RWZ8bKjNRD1O+Gf0xA6MUdkmYI6zSueLnBjy55bNxl/YW1HkZykS/h0xYHBuFFwIDbexR567425Cx3hnuwAewN5DyXtRd/ATLnyy+';
             Dynamsoft.DWT.ResourcesPath = 'https://unpkg.com/dwt/dist/';
             Dynamsoft.DWT.Load();
         };
