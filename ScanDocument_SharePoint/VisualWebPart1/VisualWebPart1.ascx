@@ -12,7 +12,7 @@
 <html>
 <head>
     <title>Use Dynamic Web TWAIN to Upload</title>
-    <script src="https://unpkg.com/dwt/dist/dynamsoft.webtwain.min.js"> </script>   
+    <script src="https://unpkg.com/dwt@17.2.5/dist/dynamsoft.webtwain.min.js"> </script>   
 </head>
 <body>
     <select size="1" id="source" style="position: relative; width: 220px;"></select>
@@ -39,7 +39,7 @@
             * 2. Change Dynamsoft.DWT.ResourcesPath to point to the full version 
             *    resource files that you obtain after purchasing a key
             */
-            Dynamsoft.DWT.ProductKey = 't00901wAAAFGokK55GCTHFf8RWZ8bKjNRD1O+Gf0xA6MUdkmYI6zSueLnBjy55bNxl/YW1HkZykS/h0xYHBuFFwIDbexR567425Cx3hnuwAewN5DyXtRd/ATLnyy+';
+            Dynamsoft.DWT.ProductKey = 't00891wAAAKFs7VjcTP0UG20tzpw0mVsqmlIukOMDImLaclVr8l5ReM0df50rg9RNaH7A9mwLt6khlmvJyIqEixQeDZAz0iBvgzHPOXcQA/gbSOY51F46ANDILMM=';
             Dynamsoft.DWT.ResourcesPath = 'https://unpkg.com/dwt/dist/';
             Dynamsoft.DWT.Load();
         };
